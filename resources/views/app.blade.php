@@ -4,10 +4,12 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title inertia>{{ config('app.name', 'Rick Rest') }}</title>
+        <title inertia>Rick Rest</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+        
 
         <!-- Scripts -->
         @routes
