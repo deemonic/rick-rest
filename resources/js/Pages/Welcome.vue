@@ -97,17 +97,17 @@ const setTweetLink = () => {
             <!-- Quote Container -->
             <div class="p-6 mt-5 shadow-2xl bg-gradient-to-l from-lime-400 to-indigo-600 rounded-3xl shadow-lime-400/50">
 
-                <div class="w-full px-12 py-6 bg-white shadow-2xl rounded-xl shadow-lime-400/50">
+                <div class="w-full px-6 py-6 bg-white shadow-2xl md:px-12 rounded-xl shadow-lime-400/50">
                     
                     <!-- Quote -->
-                    <div class="flex text-xl italic font-semibold sm:text-2xl">"{{ quote.quote }}"</div>
+                    <div class="flex italic font-semibold text-normal sm:text-2xl">"{{ quote.quote }}"</div>
 
                     <!-- Author -->
-                    <div class="flex justify-end w-full mt-5 tracking-wider text-gray-500 sm:text-lg">- {{ quote.author }}</div>
+                    <div class="flex justify-end w-full mt-5 text-sm tracking-wider text-gray-500 sm:text-lg">- {{ quote.author }}</div>
 
                      <!-- Meta -->
                     <div class="flex mt-5 text-gray-500">
-                        <div class="text-sm">Season {{ quote.season}} | Episode {{ quote.episodeNumber}} - {{ quote.episodeTitle }}</div>
+                        <div class="text-xs sm:text-sm">Season {{ quote.season}} | Episode {{ quote.episodeNumber}} - {{ quote.episodeTitle }}</div>
                     </div>
                     
                 </div>
