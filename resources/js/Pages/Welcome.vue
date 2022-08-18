@@ -73,7 +73,7 @@ const setTweetLink = () => {
                     
                 </a>
 
-                <div class="flex justify-center mt-5 md:space-x-2 md:justify-start md:mt-0">
+                <div class="flex justify-center mt-5 space-x-2 md:justify-start md:mt-0">
 
                     <a id="tweetLink" class="flex items-center px-4 py-2 text-xs font-semibold text-white uppercase bg-blue-400 rounded-md hover:bg-blue-500" data-size="large" target="_blank">
                         <Twitter class="w-5 h-5" />
