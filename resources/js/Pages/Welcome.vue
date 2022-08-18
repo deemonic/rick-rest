@@ -40,7 +40,7 @@ const setTweetLink = () => {
 
 <template>
     
-    <div class="max-h-screen min-h-screen background">
+    <div class="min-h-screen px-5 md:px-0 background">
 
         <!-- Title -->
         <div class="flex justify-center pt-12">
@@ -59,7 +59,7 @@ const setTweetLink = () => {
         <!-- Controls -->
         <div class="max-w-2xl mx-auto mt-10">
 
-            <div class="flex items-center justify-between">
+            <div class="items-center md:justify-between md:flex">
                 
                 <a href="/api/getQuote" class="flex items-center px-3 py-2 bg-white rounded-md">
                     
@@ -69,11 +69,11 @@ const setTweetLink = () => {
 
                     <span class="ml-1 text-sm font-extrabold uppercase">Get</span>
                     
-                    <span class="ml-1 text-sm">{{ url + '/api/getQuote'}}</span>
+                    <span class="ml-1 text-xs md:text-sm">{{ url + '/api/getQuote'}}</span>
                     
                 </a>
 
-                <div class="flex space-x-2">
+                <div class="flex justify-center mt-5 md:space-x-2 md:justify-start md:mt-0">
 
                     <a id="tweetLink" class="flex items-center px-4 py-2 text-xs font-semibold text-white uppercase bg-blue-400 rounded-md hover:bg-blue-500" data-size="large" target="_blank">
                         <Twitter class="w-5 h-5" />
@@ -100,10 +100,10 @@ const setTweetLink = () => {
                 <div class="w-full px-12 py-6 bg-white shadow-2xl rounded-xl shadow-lime-400/50">
                     
                     <!-- Quote -->
-                    <div class="flex text-2xl italic font-semibold">"{{ quote.quote }}"</div>
+                    <div class="flex text-xl italic font-semibold sm:text-2xl">"{{ quote.quote }}"</div>
 
                     <!-- Author -->
-                    <div class="flex justify-end w-full mt-5 text-lg tracking-wider text-gray-500">- {{ quote.author }}</div>
+                    <div class="flex justify-end w-full mt-5 tracking-wider text-gray-500 sm:text-lg">- {{ quote.author }}</div>
 
                      <!-- Meta -->
                     <div class="flex mt-5 text-gray-500">
@@ -129,7 +129,7 @@ const setTweetLink = () => {
 
             </div>
 
-            <div class="flex justify-center mt-5">
+            <div class="flex justify-center pb-12 mt-5">
                 <a href="https://www.digitalocean.com/?refcode=27d9b5b97544&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"><img src="https://web-platforms.sfo2.digitaloceanspaces.com/WWW/Badge%203.svg" alt="DigitalOcean Referral Badge" /></a>
             </div>
 

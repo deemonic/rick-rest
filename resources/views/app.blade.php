@@ -9,8 +9,6 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
-        
-
         <!-- Scripts -->
         @routes
         @vite('resources/js/app.js')
