@@ -13,6 +13,10 @@
         @routes
         @vite('resources/js/app.js')
         @inertiaHead
+
+        <!-- Google Adsense -->
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9675978648178796"
+        crossorigin="anonymous"></script>
     </head>
     <body class="font-sans antialiased">
         @inertia
