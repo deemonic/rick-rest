@@ -129,6 +129,10 @@ const setTweetLink = () => {
 
             </div>
 
+            <div class="flex justify-center mt-5">
+                <a href="https://www.digitalocean.com/?refcode=27d9b5b97544&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"><img src="https://web-platforms.sfo2.digitaloceanspaces.com/WWW/Badge%203.svg" alt="DigitalOcean Referral Badge" /></a>
+            </div>
+
         </div>
        
     </div>
