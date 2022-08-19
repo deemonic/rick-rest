@@ -32,7 +32,7 @@ const setTweetLink = () => {
 
     let tweetLink = document.getElementById("tweetLink")
 
-    tweetLink.setAttribute("href", baseUrl + quote.value.quote + "%0A%0A" + "- " + quote.value.author)
+    tweetLink.setAttribute("href", baseUrl + quote.value.quote + "%0A%0A" + "- " + quote.value.author  + "%0A%0A" + "%23RickandMorty" + " rickrest.com")
 
 }
 
